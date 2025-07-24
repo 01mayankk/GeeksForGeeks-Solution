@@ -1,29 +1,33 @@
 class Solution {
   public:
    
-    void traversal(Node* root, vector<int>& v) {
-        if (root != nullptr) {
-            traversal(root->left, v);
-            v.push_back(root->data);
-            traversal(root->right, v);
-        }
-    }
+    // int traversal(Node* root, Node* x) {
+    //     if (root != nullptr) {
+    //         traversal(root->left, x);
+    //         if(root -> data == x -> data)
+    //         {
+    //             return (root->right -> data);
+    //         }
+    //         traversal(root->right, x);
+    //     }
+        
+    //     return -1;
+    // }
 
     
     int inOrderSuccessor(Node *root, Node *x) {
-        vector<int> v;
-        traversal(root, v);
+       Node* succ = nullptr;
 
-        for (int i = 0; i < v.size(); i++) {
-            if (v[i] == x->data) {
-                if (i + 1 < v.size()) {
-                    return v[i + 1];  
-                } else {
-                    return -1; 
-                }
+        while (root) {
+            if (x->data < root->data) {
+                succ = root;
+                root = root->left;
+            } else {
+                root = root->right;
             }
         }
 
-        return -1; 
+        return succ ? succ->data : -1;
+         
     }
 };
