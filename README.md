@@ -1,84 +1,119 @@
-# GeeksForGeeks-Solution  
-*A repository of my solutions to problem sets from GeeksforGeeks*  
-— by Mayank Kumar (`01mayankk`)
+# 🧠 GeeksForGeeks-Solution
+
+A comprehensive collection of **problem solutions** from [GeeksforGeeks](https://www.geeksforgeeks.org/) — neatly organized by difficulty level and problem type.  
+Each problem folder contains:
+- **README.md** — Problem statement, example, and explanation  
+- **.cpp file** — Clean and optimized C++ solution  
 
 ---
 
-## 🧾 About  
-This repository contains my solutions to problems from [GeeksforGeeks](https://www.geeksforgeeks.org) (GfG) — covering data structures, algorithms, and contest-style challenges. Each folder is typically named by the topic, problem type or section of GfG, and within it you’ll find one or more `.cpp` or `.py` (or your language of choice) files that solve specific problems.
+## 📂 Repository Structure
 
----
-
-## 🎯 Purpose & Goals
-- **Track my improving skillset**: A structured log of solved GfG problems across topics.  
-- **Showcase problem-solving ability**: Demonstrate algorithms, data structures, and code design for interviews and personal growth.  
-- **Build a reference bank**: Use as a study tool for myself and other learners.  
-- **Keep a habit of consistency**: Solve regularly across GfG and reinforce learning.
-
----
-
-## 📁 Repository Structure  
 ```
 GeeksForGeeks-Solution/
-├── Arrays/
-│ ├── two_sum_variant.cpp
-│ ├── subarray_sum_equal_k.cpp
-│ └── README.md ← optional notes per folder
-├── Trees/
-│ ├── kth_smallest_bst.cpp
-│ └── find_median_bst.cpp
-├── DynamicProgramming/
-│ ├── knapsack_01.cpp
-│ └── longest_bitonic_subsequence.cpp
-├── …
-└── README.md ← (this file)
+│
+├── Difficulty: Basic/
+│ ├── Alternative Sorting/
+│ │ ├── README.md
+│ │ └── alternative-sorting.cpp
+│ ├── Array Search/
+│ ├── ...
+│
+├── Difficulty: Easy/
+│ ├── ...
+│
+├── Difficulty: Medium/
+│ ├── ...
+│
+├── Difficulty: Hard/
+│ ├── ...
+│
+└── Difficulty: School/
+└── Swap The Numbers/
 ```
-- Folders are grouped by **topic** (Arrays, Trees, Graphs, DP, etc.).
-- Inside each folder: solution files in C++ (or the language you used) + optionally a folder-level `README.md` with notes/explanation.
+
+Each difficulty level folder contains multiple problem sets, each with detailed documentation and solution files.
 
 ---
 
-## 🛠 How to Use
-1. **Browse by topic** – Navigate folder by folder (Arrays, Trees…) to locate the problem solution you want.  
-2. **View code** – Open the `.cpp` (or `.java` / other) file to understand approach, logic, comments.  
-3. **Run locally** – Copy the code into your local environment (VS Code, CLion, g++, etc.) and test custom inputs or edge cases.  
-4. **Study & adapt** – Use this as reference: compare your implementation, improve it, add your own comments or variations.
+## 💡 About
+
+This repository is a personal archive of coding problems I have solved on **GeeksforGeeks**, focusing on:
+- Problem-solving logic  
+- Code optimization  
+- Clean, well-documented solutions  
+
+The goal is to help learners and developers understand the **approach and implementation** of common programming problems in C++.
 
 ---
 
-## ✨ Highlights
-- Solutions span a broad range of GfG topics: Arrays, Strings, Graphs, Trees, Dynamic Programming, Greedy, etc.  
-- Written in **C++** (or specify other language) showcasing usage of STL, pointers, recursion, memory handling, efficiency.  
-- Folder structure and naming conventions ensure you can scale the repo with new problems easily.
+## 🚀 Languages Used
+
+- **C++ (100%)** — clean, modular, and efficient implementations.
 
 ---
 
-## 🧠 Notes & Tips
-- While solutions include comments, it’s better to add **your own commentary** and try modifying them (alternate algorithms, optimize time/space).  
-- Use this repository as a **learning aid**, not a substitute for solving problems yourself first. The real value is in attempting the problem, then reviewing solutions.  
-- Feel free to **fork or clone** the repo for your own study, or to compare your approaches.
+## 🧩 Categories Covered
+
+- Array & String Problems  
+- Linked List & Tree Problems  
+- Searching & Sorting Algorithms  
+- Mathematical & Bit Manipulation Problems  
+- Recursion & Backtracking  
+- Miscellaneous Coding Challenges  
 
 ---
 
-## 🤝 Contributions & Feedback
-- This repository is primarily **my personal study space**, but if you spot:
-  - a better algorithm,
-  - a bug in a solution,
-  - or want to discuss a problem,
-  
-  please feel free to reach out via GitHub.  
-- You’re welcome to **fork** the repository and submit issues or PRs if you want to add improved comments, alternate solutions, or fixes.
+## 🏷️ Difficulty Levels
+
+| Difficulty | Description |
+|-------------|--------------|
+| 🟢 **Basic** | Simple logic-based problems for beginners |
+| 🔵 **Easy** | Straightforward problems with slight logical complexity |
+| 🟡 **Medium** | Intermediate-level problems requiring algorithmic thinking |
+| 🔴 **Hard** | Advanced problems involving optimized solutions and edge-case handling |
 
 ---
 
-## ✅ License  
-This project is open-source for educational/reference purposes. Feel free to use it for your learning.
+## 🧭 How to Navigate
+
+1. Choose a **difficulty level** folder (e.g., `Difficulty: Basic/`).
+2. Open any problem folder.
+3. Read the **README.md** to understand the problem.
+4. Check the `.cpp` file for the full solution and explanation.
 
 ---
 
-> “Solve one problem today better than you solved one yesterday.”  
-> — Mayank Kumar  
+## 🧠 Author
+
+**Mayank Kumar**  
+👨‍💻 [@01mayankk](https://github.com/01mayankk)  
+💬 Passionate about Algorithms, AI, and Clean Code  
 
 ---
 
-*Happy coding! Keep solving, keep growing.* 🧑‍💻  
+## ⭐ Contribute
+
+Contributions are welcome!  
+If you'd like to improve documentation or add solutions in other languages, feel free to:
+1. Fork the repository  
+2. Create a new branch  
+3. Commit your changes  
+4. Open a Pull Request  
+
+---
+
+## 🏆 Achievements
+
+- Among **Top 10% participants** on GeeksforGeeks
+- Continuously solving problems to strengthen DSA and logic-building skills
+
+---
+
+## 🧾 License
+
+This repository is open-source under the **MIT License** — feel free to use and learn from the code with proper attribution.
+
+---
+
+### ❤️ If you found this helpful, consider giving it a ⭐ on GitHub!
